@@ -1,0 +1,653 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Content Creation for VR</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="Project page VR Videos">
+    	<meta name="keywords" content="Virtual Reality, XR,  Computer Vision, Videos, 3D, View Synthesis">
+	  	<meta name="author" content="Stefanie Zollmann">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="resources/avatar.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">VR Content Creation</a></h1>
+					<p>Casually Creating Content for VR and Immersive Experiences</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#three">Research Topics</a></li>
+						<li><a href="#apps">Applications</a></li>
+
+						<li><a href="#team">Team</a></li>
+
+
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://twitter.com/XRStefanie"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="https://github.com/szollmann"> <i class="fa fa-github" aria-hidden="true"></i></a></li>
+						</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="resources/banner.jpeg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>Content creation for VR</h2>
+										<p>VR Content Creation from Everyday Images and Videos</p>
+									</header>
+									<p>We are exploring novel ways that allow users to casually capture 3D representations and content for replay in Virtual and Augmented Reality environments.</p>
+								</div>
+							</section>
+
+						<!-- Two
+							<section id="two">
+								<div class="container">
+									<h3>Things I Can Do</h3>
+									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+									<ul class="feature-icons">
+										<li class="icon solid fa-code">Write all the code</li>
+										<li class="icon solid fa-cubes">Stack small boxes</li>
+										<li class="icon solid fa-book">Read books and stuff</li>
+										<li class="icon solid fa-coffee">Drink much coffee</li>
+										<li class="icon solid fa-bolt">Lightning bolt</li>
+										<li class="icon solid fa-users">Shadow clone technique</li>
+									</ul>
+								</div>
+							</section>
+						-->
+						<!-- Three -->
+						<section id="hero">
+
+							<section id="three">
+								<div class="container">
+										<br/>
+									<h3>Research Topics</h3>
+									<p>Thanks to the ubiquity of devices capable of recording and playing back video, the amount of video files is growing at a rapid rate. Most of us have now video recordings of major events in our lives. However, until today, these videos are captured mainly in 2D and are mostly used for screen-based video replay. In this research, we are investigating methods that work towards solving this problem.</p>
+									</br></br>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><iframe width="280" height="160" src="https://www.youtube.com/embed/zfSBPyyDQkU" title="PanoSynthVR: Toward Light-weight 360-Degree View Synthesis from a Single Panoramic Input" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+											<div class="inner">
+												<h4>PanoSynthVR</h4>
+												<p> In this project, we investigate how real-time, 360 degree view synthesis can be achieved on current virtual reality hardware from a single panoramic image input. We introduce a light-weight method to automatically convert a single panoramic input into a multi-cylinder image representation that supports real-time, free-viewpoint view synthesis rendering for virtual reality.  </p>
+												</div>
+												 <br/>
+												<p> We apply an existing convolutional neural network trained on pinhole images to a cylindrical panorama with wrap padding to ensure agreement between the left and right edges. The network outputs a stack of semi-transparent panoramas at varying depths which can be easily rendered and composited with over blending. Quantitative experiments and a user study show that the method produces convincing parallax and fewer artifacts than a textured mesh representation.
+													</br></br><a href="pdfs/PanoSynthVR_2022preprint.pdf">
+													                                    <i class="fa fa-file-pdf-o"></i> </a>
+													<a href="https://jonathanventura.github.io/PanoSynthVR/">
+													                                    <i class="fa fa-cloud"></i> </a>
+													                                    <a href="https://github.com/jonathanventura/PanoSynthVR">
+													                                    <i class="fa fa-code"></i> </a>
+													 <a href="https://youtu.be/zfSBPyyDQkU"> <i class="fa fa-youtube-play"></i></a>
+
+
+													                John Conrad Waidhofer, Richa Gadgil, Anthony Dickson, Stefanie Zollmann, Jonathan Ventura
+													                    <br/>
+															                            <strong><a href="https://ieeexplore.ieee.org/document/9995104">PanoSynthVR: Toward Light-weight 360-Degree View Synthesis from a Single Panoramic Input
+													</a></strong><br/>
+															                         IEEE International Symposium on Mixed and Augmented Reality (IEEE ISMAR), 2022
+
+															                             <br/>
+
+												 <br/>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="resources/vrVideoTeaser.jpg" alt="" /></a>
+											<div class="inner">
+										<h4>VRVideos</h4>
+										<p> Recent advances in Neural Radiance Field (NeRF)- based methods have enabled high-fidelity novel view synthesis for video with dynamic elements. However, these methods often require expensive hardware, take days to process a second-long video and do not scale well to longer videos.  </p>
+										</div>
+										 <br/>
+										<p> We create an end- to-end pipeline for creating dynamic 3D video from a monocular video that can be run on consumer hardware in minutes per second of footage, not days. Our pipeline handles the estimation of the camera parameters, depth maps, 3D reconstruction of dynamic foreground and static background elements, and the rendering of the 3D video on a computer or VR headset. We use a state-of-the-art visual transformer model to estimate depth maps which we use to scale COLMAP poses and enable RGB-D fusion with estimated depth data. In our preliminary experiments, we rendered the output in a VR headset and visually compared the method against ground-truth datasets and state-of-the-art NeRF-based methods.
+											</br></br><a href="https://visualcomputing.otago.ac.nz/pdfs/Dickson_AIVR2022.pdf">
+																													<i class="fa fa-file-pdf-o"></i> </a>
+																			Anthony Dickson, Jeremy Shanks, Jonathan Ventura, Ali Knott, Stefanie Zollmann,
+																					<br/>
+																											<strong><a href="https://ieeexplore.ieee.org/document/10024470/">VRVideos: A flexible pipeline for Virtual Reality Video Creation
+											</strong></a><br/>
+											IEEE International conference on ARTIFICIAL INTELLIGENCE & VIRTUAL REALITY (AIVR)), 2022
+
+
+
+																											 <br/>
+
+										 <br/>
+								</article>
+
+										<article>
+											<a href="#" class="image"><img src="resources/teaserCasualVRVideos.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>CasualVRVideos</h4>
+												<p> Traditional videos are  not optimized for playback in stereoscopic displays or even tracked Virtual Reality devices. In this work, we present CasualVRVideos, a first approach that works towards solving these issues by extracting spatial information from video footage recorded in 2D, so that it can later be played back in VR displays to increase the immersion. </p>
+												</div>
+												 <br/>
+												<p> We focus in particular on the challenging scenario when the camera itself is not moving.
+												 <br/>
+    	                             Stefanie Zollmann, Anthony Dickson, Jonathan Ventura <br/>
+																	 <a href="resources/CasualVRVideoVRSTposter2020.pdf"> <i class="fa fa-file-pdf-o"></i> </a>
+					 												 <strong><a href="https://dl.acm.org/doi/10.1145/3385956.3422119">CasualVRVideos: VR videos from casual stationary videos</strong></a><br/>
+		                              VRST '20: 26th ACM Symposium on Virtual Reality Software and Technology, 2020</p>
+		                             <br/>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="resources/casualStereo.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Casual Stereo Panoramas</h4>
+												<p> Hand-held capture of stereo panoramas involves spinning the camera in a roughly circular path to acquire a dense set of views of the scene. However, most existing structure-from-motion pipelines fail when trying to reconstruct such trajectories, due to the small baseline between frames.
+</p></div></br>
+													In this work, we evaluate the use of spherical structure-from-motion for reconstructing handheld stereo panorama captures. The spherical motion constraint introduces a strong regularization on the structure-from-motion process which mitigates the small-baseline problem, making it well-suited to the use case of stereo panorama capture with a handheld camera.
+
+													<p>We demonstrate the effectiveness of spherical structure-from-motion for casual capture of high-resolution stereo panoramas and validate our results with a user study. </p>
+								  <p>	<a href="https://ieeexplore.ieee.org/abstract/document/9089526/"> <i class="fa fa-trophy"></i> </a>  <a href="https://visualcomputing.otago.ac.nz/pdfs/BakerIEEEVR2020Casual_preprint.pdf"></i> <i class="fa fa-file-pdf-o"> </i></a>
+    	                             Lewis Baker, Steven Mills, Stefanie Zollmann, Jonathan Ventura  <br/>
+		                            <strong> <a href="https://ieeexplore.ieee.org/abstract/document/9089526/"> CasualStereo: Casual Capture of Stereo Panoramas with Spherical Structure-from-Motion </a></strong><br/>
+		                             IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), 2020, Honourable Mention Award.
+		                             <br/>
+									 </p>
+										</article>
+<article>
+											<a href="#" class="image"><img src="resources/6DOFEditor.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>VRVideo Editing</h4>
+												<p>
+												Editing VR videos using standard video editing tools is challenging, especially for non-expert users. There is a large gap between the 2D interface used for traditional video editing and the immersive VR environment used for replay. </p>
+											</p></div></br><p>Within this project, we look into methods for immersive video editing bridging this gap. In particular, we propose 6DIVE, a 6 degrees-of-freedom (DoF) immersive video editor. 6DIVE allows users to edit these 6DoF videos directly in an immersive VR environment.
+												</p>
+								  <p>	<a href="https://www.hci.otago.ac.nz/papers/GriffinFrontiers2021.pdf"></i> <i class="fa fa-file-pdf-o"> </i></a>
+    	                             Ruairi Griffin, Tobias Langlotz, Stefanie Zollmann  <br/>
+		                            <strong> <a href="https://www.frontiersin.org/articles/10.3389/frvir.2021.676895/full"> 6DIVE: 6 Degrees-of-Freedom Immersive Video Editor </a></strong><br/>
+		                             Frontiers in Virtual Reality 2, 75
+		                             <br/>
+									 </p>
+										</article>
+
+
+
+
+									</div>
+								</div>
+							</section>
+
+							<section id="apps">
+															<div class="container">
+																<h3>Applications</h3>
+																<p>Experience VR videos in a VR headset or in your browser</p>
+																<div class="features">
+
+										<article>
+											<a href="#" class="image">
+												<iframe width="320" height="240" src="https://szollmann.github.io/DepthVideoViewer/"  frameborder="0"></iframe></a>
+											<div class="inner">
+																			<h4>RGBD Video VR Player</h4>
+																			<p>Render your own RGBD videos in Virtual Reality (only Google Chrome is supported at the moment). Click on Single or 360 to load your video. </p>
+																			<p>Check out the embedded content on the left or <a href="https://szollmann.github.io/DepthVideoViewer/" target="_blank">visit the external website</a>.</p>
+
+																		</div>
+																	</article>
+
+																	<article>
+											<a href="#" class="image">
+												<iframe width="320" height="240" src="https://jonathanventura.github.io/PanoSynthVR/renderer.html?mode=mpi&scene=2"  frameborder="0"></iframe></a>
+											<div class="inner">
+																			<h4>PanoSynthVR Viewer</h4>
+																			<p>Viewer for PanosynthVR experiences  </p>
+																			<p>Check out the embedded content on the left or <a href="https://jonathanventura.github.io/PanoSynthVR/renderer.html?mode=mpi&scene=2" target="_blank">visit the external website</a>.</p>
+
+																		</div>
+																	</article>
+
+																		<article>
+											<a href="#" class="image">
+												<iframe width="320" height="240" src="https://jonathanventura.github.io/spherical-sfm/webviewer/index.html?name=owheo"  frameborder="0"></iframe></a>
+											<div class="inner">
+																			<h4>CasualStereo Viewer</h4>
+																			<p>Viewer for CasualStereo VR experiences  </p>
+																			<p>Check out the embedded content on the left or <a href="https://jonathanventura.github.io/spherical-sfm/webviewer/index.html?name=owheo" target="_blank">visit the external website</a>.</p>
+
+																		</div>
+																	</article>
+
+
+
+																</div>
+															</div>
+														</section>
+
+							<!-- Three -->
+														<section id="team">
+															<div class="container">
+																<h3>Team Members</h3>
+																<p>Our interdisciplinary team consists of members from Computer Science.</p>
+																<div class="features">
+																	<article>
+																		<a href="#" class="image"><img src="resources/stefanie.jpg" alt="" /></a>
+																		<div class="inner">
+																			<h4>Stefanie Zollmann</h4>
+																			<p>Principal investigator. AR and Visualization expert. Department of Computer Science, Otago University. </p>
+																		</div>
+																	</article>
+
+																	<article>
+																		<a href="#" class="image"><img src="resources/jventura_small.jpg" alt="" /></a>
+																		<div class="inner">
+																			<h4>Jonathan Ventura</h4>
+																			<p> Computer vision, augmented/virtual reality, and machine learning expert. Department of Computer Science, Cal Poly. </p>
+																		</div>
+																	</article>
+
+
+																	<article>
+																		<a href="#" class="image"><img src="resources/lewis.baker.jpg" alt="" /></a>
+																		<div class="inner">
+																			<h4>Lewis Baker</h4>
+																			<p>Postgraduate researcher with focus on Computer Vision, tracking and localisation. Graduated with a PhD in 2021 <a href="https://hci.otago.ac.nz/papers/BakerPhDThesis2020.pdf"> (<i class="fa fa-file-pdf-o"> thesis) </i> </a> </p>
+																		</div>
+																	</article>
+																	<article>
+																		<a href="#" class="image"><img src="resources/wei.hong.jpg" alt="" /></a>
+																		<div class="inner">
+																			<h4>Wei Hong Lo</h4>
+																			<p>PhD student with focus on Visualisation and User Experience. Graduated with a PhD in 2022 <a href="https://visualcomputing.otago.ac.nz/pdfs/LoWeiHongPhDs.pdf"> (<i class="fa fa-file-pdf-o"> thesis) </i> </a> </p>
+																		</div>
+																	</article>
+																	<article>
+																		<a href="#" class="image"><img src="resources/anthony.dickson.jpg" alt="" /></a>
+																		<div class="inner">
+																			<h4>Anthony Dickson</h4>
+																			<p>Anthony is a PhD student working on 3D from single view videos.</p>
+																		</div>
+																	</article>
+
+																	<article>
+																		<a href="#" class="image"><img src="resources/ali.knott.jpg" alt="" /></a>
+																		<div class="inner">
+																			<h4>Ali Knott</h4>
+																			<p>Professor in Artificial Intelligence at the Victoria University of Wellington. Co-supervisor of Anthony Dickson.</p>
+																		</div>
+																	</article>
+
+
+																</div>
+															</div>
+														</section>
+
+						<!-- Five -->
+						<!--
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="col-6 col-12-xsmall">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6 col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Primary</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary large">Large</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button primary disabled">Primary</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+												<div class="col-12">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						-->
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; VisualComputingOtago. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

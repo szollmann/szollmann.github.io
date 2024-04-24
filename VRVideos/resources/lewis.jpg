@@ -1,0 +1,847 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<html>
+	<head>
+		
+		<title>ARSpectator</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="Project page ARSpectator">
+    	<meta name="keywords" content="Augmented Reality, XR, AR, Computer Vision, Tracking, Visualization, Sports, Spectating, Broadcast">
+    	<meta name="author" content="Stefanie Zollmann">
+   
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<style>
+.responsive {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+	</head>
+	
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/avatar2.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">ARSpectator</a></h1>
+					<p>Situated visualisation to enrich sports experience for on-site spectators</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#about" class="active">About</a></li>
+						<li><a href="#topics">Project Topics</a></li>
+						<li><a href="#team">Team Members</a></li>
+						<li><a href="#demo">Demos</a></li>
+						<li><a href="#videos">Videos</a></li>
+						<li><a href="#publications">Publications</a></li>
+						<li><a href="#four">Others about us</a></li>
+						<li><a href="#five">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+						-->
+						<li><a href="mailto:arspectator@cs.otago.ac.nz" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="about">
+								<div class="container">
+									<header class="major">
+										<h2>Overview</h2>
+										<p>Augmented spectator sports experience</p>
+									</header>
+									<a href="#" class="image"><img src="images/ARSpectator.jpg" alt="" class="responsive" /></a>
+										
+
+									<p>Over the last couple of years, we have seen many major advancements in sports broadcasting as well as in the interactivity in sports entertainment. 25 years ago, the first real-time graphics animation of a sporting event was broadcast on television for the Americas Cup, driven by NZ innovation. Nowadays spectators can remotely follow the same event live in real-time using their mobile devices. However, spectators at live sporting events often miss out on this enriched content that is available to remote viewers through broadcast media or online.
+The main idea of this project is to extend NZ’s lead in this field, visualising game statistics in a novel way on the mobile devices of on-site spectators to give them access to information about the sporting event. We will provide spectators with an enriched experience like the one you see in a television broadcast. Our plan is to use new technologies like Augmented Reality to place event statistic such as scoring, penalties, team statistics, additional player information into the field of view of the spectators based on their location within the venue. While currently we focus more on delivering data to the spectators, this approach could be easily extended for supporting coaches and team analysts.
+Our research will bring sports events closer to the audience, as well as bringing the spectators closer to the events and the teams.
+								</br></br> This project is funded by a <a href="https://www.mbie.govt.nz/assets/8dc12a2b31/endeavour-fund-2017-successful-proposals-detailed-summary.pdf">MBIE SmartIdea research funding award</a>.</p>
+							<div class="videowrapper">	<iframe width="834" height="469" src="https://www.youtube.com/embed/LOskhPgXV2c"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+								
+</div>
+								</div>
+
+
+							</section>
+
+						<!-- Two -->
+							<section id="topics">
+								<div class="container">
+									<h3>Project Topics</h3>
+									<p>For bringing sports events closer to the audience, we work in an interdisciplinary field covering a wide range of topics:</p>
+									<ul class="feature-icons">
+										<li class="fa-code">Computer Vision</li>
+										<li class="fa-bar-chart">Visualization Techniques</li>
+										<li class="fa-book">Interaction Techniques</li>
+										<li class="fa fa-cogs">Machine Learning</li>
+										<li class="fa-dribbble">Sports Technology</li>
+
+									</ul>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="team">
+								<div class="container">
+									<h3>Team Members</h3>
+									<p>Our interdisciplinary team consists of members from the Computer Science, Information Science and Physical Education departments of the University of Otago. As well as industry partners.</p>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/stefanie.zollmann.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Stefanie Zollmann</h4>
+												<p>Principal investigator. AR and Visualization expert. Department of Computer Science, Otago University. </p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/steven.mills.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Steven Mills</h4>
+												<p>Key researcher. Computer Vision expert. Department of Computer Science, Otago University. </p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/tobias.langlotz.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Tobias Langlotz</h4>
+												<p>Key researcher. Mobile Computing, AR and HCI expert. Department of Information Science, Otago University. </p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/holger.regenbrecht.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Holger Regenbrecht</h4>
+												<p>Key researcher. AR, VR and HCI expert. Department of Information Science, Otago University. </p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/chris.button.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Chris Button</h4>
+												<p>Researcher. Sport Technology expert. Department of Physical Education, Otago University.  </p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/lewis.baker.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Lewis Baker</h4>
+												<p>Postgraduate researcher with focus on Computer Vision, tracking and localisation. Graduated with a PhD in 2021 <a href="https://hci.otago.ac.nz/papers/BakerPhDThesis2020.pdf"> (<i class="fa fa-file-pdf-o"> thesis) </i> </a> </p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/wei.hong.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Wei Hong Lo</h4>
+												<p>PhD student with focus on Visualisation and User Experience. Graduated with a PhD in 2022 <a href="https://visualcomputing.otago.ac.nz/pdfs/LoWeiHongPhDs.pdf"> (<i class="fa fa-file-pdf-o"> thesis) </i> </a> </p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/shazia.gul.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Shazia Gul</h4>
+												<p>PhD student with focus on Machine Learning and Computer Vision for localisation and tracking. </p>
+											</div>
+										</article>
+											<article>
+											<a href="#" class="image"><img src="images/patrick.skinner.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Patrick Skinner</h4>
+												<p>Master student with focus on Localisation and Tracking. </p>
+											</div>
+										</article>
+											<article>
+											<a href="#" class="image"><img src="images/michaela.selig.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Michaela Selig</h4>
+												<p>Research intern with focus on mobile prototypes. </p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/moritz.loos.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Moritz Loos</h4>
+												<p>Research intern with focus on mobile prototypes, Hololens, player tracking, system integration. </p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						<!-- Demos -->
+							<section id="demo">
+								<div class="container">
+									<h3>Demos</h3>
+
+									<div class="features">
+											<article>
+												<a href="#" class="image"><img src="images/teaserdemo.jpg" alt="" class="responsive" /></a>
+												<div class="inner">
+													<h4>VRST 2021</h4>
+													<a href="http://bit.do/vrspectator">
+													<strong> XRSpectator Demo for Oculus Quest - APK Download </strong>
+												</a>
+												<br/>
+												<a href="pdfs/xrspectator_instructions.pdf">
+													ReadMe - Instructions for Installing APK
+												</a>
+												<br/>
+												Demonstration, VRST 2021 Osaka, Japan
+												</div>
+											</article>
+										</div>
+									
+								</div>
+							</section>
+							<!-- Demos -->
+							<section id="videos">
+								<div class="container">
+									<h3>Videos</h3>
+
+									<p> <a href="https://arspectator.otago.ac.nz/#demo"> <i class="fa fa-street-view"></i> </a>
+                    <a href="https://youtu.be/TR27sWmCMwk"> <i class="fa fa-youtube-play"></i></a>
+                    Wei Hong Lo presenting
+		                            <strong><a href="https://dl.acm.org/doi/10.1145/3489849.3489930">XRSpectator: Immersive, Augmented Sports Spectating</strong></a> at the 27th ACM Symposium on Virtual Reality Software and Technology (VRST), 2021
+                                   <div class="videowrapper"><iframe width="560" height="320" src="https://www.youtube.com/embed/TR27sWmCMwk " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+		                             <br/>
+
+                                     </p>
+     <p> <a href="https://dl.acm.org/doi/10.1145/3489849.3489906"> <i class="fa fa-file-pdf-o"></i> </a>
+                                    <a href="https://youtu.be/akweLIbQTiw"> <i class="fa fa-youtube-play"></i></a>
+Wei Hong Lo talking about   <strong><a href="https://dl.acm.org/doi/10.1145/3489849.3489906">Technical Factors Affecting Augmented Reality User Experiences in Sports Spectating</strong></a> at 27th ACM Symposium on Virtual Reality Software and Technology, 2021
+		                             <br/>
+									 <div class="videowrapper">
+<iframe width="560" height="320" src="https://www.youtube.com/embed/akweLIbQTiw " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+                                     </p>
+<p> <a href="https://ieeexplore.ieee.org/document/9653277/"> <i class="fa fa-file-pdf-o"></i> </a>
+                                    <a href="https://www.youtube.com/watch?v=j7_LpK9G1Do"> <i class="fa fa-youtube-play"></i></a>
+Wei Hong Lo talking about   <strong><a href="https://ieeexplore.ieee.org/document/9653277/">From off-site to on-site: A Flexible Framework for XR Prototyping in Sports Spectating</strong></a> at IVCNZ conference, 2021
+		                             <br/>
+									 <div class="videowrapper">
+<iframe width="560" height="320" src="https://www.youtube.com/embed/j7_LpK9G1Do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+
+                                     </p>
+
+									 <p> <a href="https://ieeexplore.ieee.org/iel7/9653180/9653158/09653307.pdf"> <i class="fa fa-file-pdf-o"></i> </a>
+                                    <a href="https://www.youtube.com/watch?v=xrEOsaZWr8c"> <i class="fa fa-youtube-play"></i></a>
+Shazia Gul presting our work on <strong><a href="https://visualcomputing.otago.ac.nz/pdfs/Shazia_IVCNZ2021.pdf"> Expert Sample Consensus Applied To Camera Localization for AR Sports Spectators</strong></a>at IVCNZ conference, 2021
+		                             <br/>
+									 <div class="videowrapper">
+<iframe width="560" height="320" src="https://www.youtube.com/embed/xrEOsaZWr8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+
+                                     </p>
+
+									  <p>
+
+									  <a href="https://www.youtube.com/watch?v=tVgQZoh9tOk"> <i class="fa fa-youtube-play"></i></a>
+    	                            
+Wei Hong Lo presenting  <strong><a href="https://ieeexplore.ieee.org/abstract/document/9419185/"> Who kicked the ball? Situated Visualization in On-Site Sports Spectating </strong></a> at 2021 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)
+		                             <br/> <div class="videowrapper">
+<iframe width="560" height="320" src="https://www.youtube.com/embed/tVgQZoh9tOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                     </p>
+
+
+								</div>
+							</section>
+							
+							<section id="publications">
+								<div class="container">
+									<h3>Publications</h3>
+									<ul>
+
+										<li> <p> <a href="https://link.springer.com/article/10.1007/s00371-023-02777-2"><i 										class="fa fa-file-pdf-o"></i> </a>
+									Lewis Baker, Jonathan Ventura, Tobias Langlotz, Shazia Gul, Steven Mills, Stefanie Zollmann (2023) 
+									 <a href="https://link.springer.com/article/10.1007/s00371-023-02777-2"> 
+									 <strong>Localization and tracking of stationary users for augmented reality</strong></a>
+									  The Visual Computer
+									</p>
+
+	<li> <p> <a href="https://visualcomputing.otago.ac.nz/pdfs/ISMAR_XR_PrototypingLoWeiHong.pdf"><i 										class="fa fa-file-pdf-o"></i> </a>
+									Wei Hong Lo, Holger Regenbrecht, Stefanie Zollmann (2022) 
+									 <a href="https://ieeexplore.ieee.org/abstract/document/9974236/"> 
+									 <strong>Flexible XR Prototyping—A Sports Spectating Example</strong></a>
+									 1st Workshop on Prototyping Cross-Reality Systems (ISMAR 2022)
+									</p>
+
+
+									<li> <p> <a href="https://visualcomputing.otago.ac.nz/pdfs/ContextAwareImmersiveSports.pdf"><i 										class="fa fa-file-pdf-o"></i> </a>
+									Wei Hong Lo, Holger Regenbrecht, Barrett Ens, Stefanie Zollmann (2022) 
+									 <a href="https://ieeexplore.ieee.org/abstract/document/9974496/"> 
+									 <strong>A Context-aware Interface for Immersive Sports Spectating</strong></a>
+									 2022 IEEE International Symposium on Mixed and Augmented Reality Adjunct
+									</p>
+										<li> <p> <a href="pdfs/Stefanie_Zollman_AugmentedReality_v2.pdf"><i 										class="fa fa-file-pdf-o"></i> (Preprint) </a>
+									Stefanie Zollmann, Tobias Langlotz, Holger Regenbrecht, Chris Button, Wei Hong Lo, Steven Mills (2022) 
+									 <a href="https://www.taylorfrancis.com/chapters/edit/10.4324/9781003205111-7/augmented-reality-sports-spectating-coaching-stefanie-zollmann-tobias-langlotz-holger-regenbrecht-chris-button-wei-hong-lo-steven-mills"> 
+									 <strong>Augmented Reality for Sports Spectating and Coaching </strong></a>
+									  Book Chapter: Interactive Sports Technologies, Routledge
+									</p>
+
+									 <li> <p> <a href="https://www.sciencedirect.com/science/article/pii/S009784932100265X"><i 										class="fa fa-file-pdf-o"></i> </a>
+									Wei Hong Lo,  Holger Regenbrecht, Stefanie Zollmann (2021) 
+									 <a href="https://www.sciencedirect.com/science/article/pii/S009784932100265X"> 
+									 <strong> Stats on-site—Sports spectator experience through situated visualizations </strong></a>
+									  Computers and Graphics, 2021
+									</p>
+										
+									 <li> <p> <a href="https://visualcomputing.otago.ac.nz/pdfs/IVCNZWeiHong.pdf"><i 										class="fa fa-file-pdf-o"></i> </a>
+									Wei Hong Lo,  Holger Regenbrecht, Stefanie Zollmann (2021) 
+									 <a href="https://visualcomputing.otago.ac.nz/pdfs/IVCNZWeiHong.pdf"> 
+									 <strong> From off-site to on-site: A Flexible Framework for XR Prototyping in Sports Spectating </strong></a>
+									  Image and Vision Computing New Zealand (IVCNZ), 2021
+									</p>
+									<li> <p> <a href="https://visualcomputing.otago.ac.nz/pdfs/Shazia_IVCNZ2021.pdf"><i 										class="fa fa-file-pdf-o"></i> </a>
+									Shazia Gul, Lewis Baker, Ryan Boult, Steven Mills and Stefanie Zollmann (2021) 
+									 <a href="https://visualcomputing.otago.ac.nz/pdfs/Shazia_IVCNZ2021.pdf"> 
+									 <strong> Expert Sample Consensus Applied To Camera Localization for AR Sports Spectators </strong></a>
+									  Image and Vision Computing New Zealand (IVCNZ), 2021
+									</p>
+
+									<li> <p> <a href="https://conferences.computer.org/vrpub/pdfs/VRW2021-2ANNoldm4A10Ml9f63uYC9/136700a496/136700a496.pdf"><i 										class="fa fa-file-pdf-o"></i> </a>
+									<a href="https://www.youtube.com/watch?v=tVgQZoh9tOk"> <i class="fa fa-youtube-play"></i></a>
+									Wei Hong Lo, Stefanie Zollmann, Holger Regenbrecht (2021) 
+									 <a href="https://conferences.computer.org/vrpub/pdfs/VRW2021-2ANNoldm4A10Ml9f63uYC9/136700a496/136700a496.pdf"> 
+									 <strong> Who kicked the ball? Situated Visualization in On-Site Sports Spectating </strong></a>
+									  Poster, IEEE Virtual Reality (IEEE VR), Lisbon (Online), 2021.
+									</p>
+
+<li> <p> <a href="https://www.researchgate.net/profile/David-Mandl/publication/355854863_Neural_Cameras_Learning_Camera_Characteristics_for_Coherent_Mixed_Reality_Rendering/links/618bb8543068c54fa5c8c9b1/Neural-Cameras-Learning-Camera-Characteristics-for-Coherent-Mixed-Reality-Rendering.pdf"><i 										class="fa fa-file-pdf-o"></i> </a>
+									<a href="https://www.youtube.com/watch?v=3tlpzDwbyiE"> <i class="fa fa-youtube-play"></i></a>
+									David Mandl, Peter Mohr, Tobias Langlotz, Christoph Ebner, Shohei Mori, Stefanie Zollmann, Peter M Roth, Denis Kalkofen (2021) 
+									 <a href="https://conferences.computer.org/vrpub/pdfs/VRW2021-2ANNoldm4A10Ml9f63uYC9/136700a496/136700a496.pdf"> 
+									 <strong> Neural Cameras: Learning Camera Characteristics for Coherent Mixed Reality Rendering
+									 </strong></a>
+									 2021 IEEE International Symposium on Mixed and Augmented Reality.
+									</p>
+
+									
+									<li> <p> <a href="http://www.hci.otago.ac.nz/papers/BakerIEEEVR2020.pdf"><i class="fa fa-file-pdf-o"></i> </a>
+									<a href="https://www.youtube.com/watch?v=SlOt1S1wDJc"> <i class="fa fa-youtube-play"></i></a>
+									Lewis Baker, Jonathan Ventura, Stefanie Zollmann, Steven Mills, Tobias Langlotz (2020) 
+									 <a href="https://ieeexplore.ieee.org/abstract/document/9089490"> 
+									 <strong> SPLAT: Spherical Localization and Tracking in Large Spaces </strong></a>
+									  IEEE Virtual Reality (IEEE VR), Atlanta (Online), 2020.
+									</p>
+									
+									 <li> <p> <a href="http://www.hci.otago.ac.nz/papers/ZollmannIEEETVCG2020.pdf"><i class="fa fa-file-pdf-o"></i> </a>
+									Stefanie Zollmann, Tobias Langlotz, Raphael Grasset, Wei Hong Lo, Shohei Mori, Holger Regenbrecht (2020) 
+								     <a href="https://ieeexplore.ieee.org/abstract/document/9060980/"> 
+									<strong>	Visualization Techniques in Augmented Reality: A Taxonomy, Methods and Patterns</strong>
+									</a>
+								    IEEE Transactions on Visualisation and Computer Graphics, 2020.  
+									<a href="https://stefanie.cspages.otago.ac.nz/arvispipeline/"Web Viewer</a>
+									 </p>
+									 
+									 
+								
+									  <li> <p> <a href="http://www.hci.otago.ac.nz/papers/ZollmannACMSiggraphAsia2019.pdf"><i class="fa fa-file-pdf-o"></i> </a>
+                                    S Zollmann, T Langlotz, M Loos, WH Lo, L Baker <br/>
+									 <a href="https://dl.acm.org/doi/abs/10.1145/3355088.3365162"> 
+		                            <strong>ARSpectator: Exploring Augmented Reality for Sport Events</strong>
+									</a>
+		                             SIGGRAPH Asia 2019 Technical Briefs, 75-78 
+                                     </p>
+                                    </li>
+
+                                    <li> <p> <a href="pdfs/SkinnerIVCNZ2019.pdf"><i class="fa fa-file-pdf-o"></i> </a>
+                                    Patrick Skinner and Stefanie Zollmannn <br/>
+									 <a href="https://ieeexplore.ieee.org/abstract/document/8961006/"> 
+		                            <strong>Localisation for Augmented Reality at Sport Events</strong>
+									</a>
+		                           Image and Vision Computing New Zealand (IVCNZ 2019)
+                                     </p>
+                                    </li>
+                                	<li> <p> <a href="pdfs/VRCAI2019.pdf"><i class="fa fa-file-pdf-o"></i> </a>
+									<a href="https://youtu.be/LOskhPgXV2c"> <i class="fa fa-youtube-play"></i></a>
+                                   WH Lo, S Zollmann, H Regenbrecht, M Loos <br/>
+								   <a href="https://dl.acm.org/citation.cfm?id=3365728">
+		                            <strong> From Lab to Field: Demonstrating Mixed Reality Prototypes for Augmented Sports Experiences</strong>
+									</a>
+		                             The 17th International Conference on Virtual-Reality Continuum and its Applications(VRCAI)
+                                     </p>
+                                    </li>
+
+									 <li > <p> <a href="https://ieeexplore.ieee.org/abstract/document/8490972"><i class="fa fa-file-pdf-o"></i> </a>
+                                Steven Mills <br/>
+                                <a href="https://ieeexplore.ieee.org/abstract/document/8490972">
+								<strong>Four- and Seven-Point Relative Camera Pose from Oriented Features</strong>
+								</a>
+								<br/>
+		                        2018 International Conference on 3D Vision (3DV)
+
+                                </p>
+
+                                    </li>
+									
+                                    <li > <p> <a href="http://www.hci.otago.ac.nz/papers/BakerIEEEIVCNZ2018.pdf"><i class="fa fa-file-pdf-o"></i> </a>
+                                Lewis Baker, Stefanie Zollmann, Steven Mills and Tobias Langlotz <br/>
+                                <a href="https://ieeexplore.ieee.org/abstract/document/8634761/">
+								<strong>SoftPOSIT for Augmented Reality in complex environments: Limitations and challenges</strong>
+								</a>
+								<br/>
+		                        Image and Vision Computing New Zealand (IVCNZ 2018)
+
+                                </p>
+
+                                    </li>
+										
+
+									</ul>
+								</div>
+							</section>
+
+
+							<!-- Three -->
+								<section id="four">
+									<div class="container">
+										<h3>Others about us</h3>
+										<p>Our project appeared in several news articles and press releases.</p>
+										<div class="features">
+											<article>
+												<a href="http://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=11927098" class="image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/The_New_Zealand_Herald_logo.webp/320px-The_New_Zealand_Herald_logo.webp.png" alt="" /></a>
+												<div class="inner">
+													<h4>NZHerald</h4>
+													<p><a href="http://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=11927098">NZ researchers to 'revolutionise' sports games</a></p>
+												</div>
+											</article>
+											<article>
+												<a href="https://www.otago.ac.nz/sciences/news/news/otago664252.html" class="image"><img src="http://www.otago.ac.nz/cs/groups/public/@sciences/documents/webcontent/otago664249.jpg" alt="" /></a>
+												<div class="inner">
+													<h4>Division of Sciences Press Release</h4>
+													<p><a href="https://www.otago.ac.nz/sciences/news/news/otago664252.html">$1 million MBIE "Smart Idea" grant to advance augmented reality</a></p>
+											</div>
+											</article>
+											<article>
+												<a href="https://www.mbie.govt.nz/assets/8dc12a2b31/endeavour-fund-2017-successful-proposals-detailed-summary.pdf" class="image"><img src="images/MBIE.jpg" alt="" /></a>
+												<div class="inner">
+													<h4>MBIE Announcement Successful Proposals</h4>
+													<p><a href="https://www.mbie.govt.nz/assets/8dc12a2b31/endeavour-fund-2017-successful-proposals-detailed-summary.pdf">2017 Endeavour Round successful proposals – detailed summary</a></p>
+												</div>
+											</article>
+										</div>
+									</div>
+								</section>
+
+						<!-- Four -->
+							<section id="five">
+								<div class="container">
+									<h3>Contact Us</h3>
+									<p>For any inquiries regarding the project or if you are interested to do a PhD with us, please contact us using the email address below.</p>
+									<a href="mailto:arspectator@cs.otago.ac.nz" class="icon fa-envelope"> arspectator(at)cs.otago.ac.nz<span class="label">Email</span></a>
+								</div>
+							</section>
+
+						<!-- Five -->
+						<!--
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+	while (!deck.isInOrder()) {
+	    print 'Iteration ' + i;
+	    deck.shuffle();
+	    i++;
+	}
+
+	print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="6u 12u(xsmall)">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="6u 12u(xsmall)">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button special">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button special small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="3u 6u(medium) 12u$(xsmall)">
+												<ul class="actions vertical">
+													<li><a href="#" class="button special">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="3u 6u$(medium) 12u$(xsmall)">
+												<ul class="actions vertical small">
+													<li><a href="#" class="button special small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="3u 6u(medium) 12u$(xsmall)">
+												<ul class="actions vertical">
+													<li><a href="#" class="button special fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="3u 6u$(medium) 12u$(xsmall)">
+												<ul class="actions vertical small">
+													<li><a href="#" class="button special small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button special">Special</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button special big">Big</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button special fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button special fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button special icon fa-download">Icon</a></li>
+											<li><a href="#" class="button icon fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button special disabled">Special</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row uniform">
+												<div class="6u 12u(xsmall)">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="6u 12u(xsmall)">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+											</div>
+											<div class="row uniform">
+												<div class="12u">
+													<div class="select-wrapper">
+														<select name="demo-category" id="demo-category">
+															<option value="">- Category -</option>
+															<option value="1">Manufacturing</option>
+															<option value="1">Shipping</option>
+															<option value="1">Administration</option>
+															<option value="1">Human Resources</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											<div class="row uniform">
+												<div class="4u 12u(medium)">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="4u 12u(medium)">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="4u 12u(medium)">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+											</div>
+											<div class="row uniform">
+												<div class="6u 12u(medium)">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="6u 12u(medium)">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+											</div>
+											<div class="row uniform">
+												<div class="12u">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+											</div>
+											<div class="row uniform">
+												<div class="12u">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row 50% uniform">
+												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											</div>
+											<div class="row 50% uniform">
+												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+											</div>
+											<div class="row 50% uniform">
+												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						-->
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; <a href="https://visualcomputing.otago.ac.nz">VisualComputing@University of Otago<a/>. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
