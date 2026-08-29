@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://szollmann.github.io/sitemap.xml
