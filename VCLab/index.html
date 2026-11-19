@@ -65,264 +65,224 @@
       ]
     }
     </script>
-
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #fafafa;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 0 1.5rem;
-        }
-        h1, h2, h3 {
-            color: #3b4aa1;
-            line-height: 1.3;
-        }
-        h2 {
-            border-bottom: 2px solid #e6e6e6;
-            padding-bottom: 8px;
-            margin-top: 2.5rem;
-        }
-        h3 { color: #5a6cd1; }
-        a {
-            color: #4e6ee0;
-            text-decoration: none;
-        }
-        a:hover { text-decoration: underline; }
-
-        .header {
-            background-color: #7fa8ff;
-            color: #ffffff;
-            padding: 2.5rem 1.5rem;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 1.5rem;
-        }
-        .header img {
-            height: 40px;
-            width: auto;
-        }
-        .header h1 {
-            color: #ffffff;
-            font-size: 2.5rem;
-            margin: 0;
-        }
-        .header .subtitle {
-            font-size: 1.2rem;
-            margin: 0.5rem 0 0;
-            font-weight: 300;
-        }
-
-        .navbar {
-            background-color: #ffffff;
-            border-bottom: 1px solid #ddd;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        }
-        .navbar .container {
-            display: flex;
-            justify-content: center;
-            padding: 0 1.5rem;
-        }
-        .navbar ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .navbar li a {
-            display: block;
-            padding: 1rem 1.5rem;
-            color: #444;
-            font-weight: 500;
-            text-decoration: none;
-            transition: background-color 0.2s ease-in-out;
-        }
-        .navbar li a:hover {
-            background-color: #f1f4fc;
-            color: #4e6ee0;
-        }
-
-        .main-content {
-            background-color: #ffffff;
-            padding: 2rem;
-            margin-top: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
-        }
-        .main-content section { margin-bottom: 2rem; }
-
-        #research ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        #research li {
-            position: relative;
-            padding-left: 30px;
-            margin-bottom: 1rem;
-        }
-        #research li::before {
-            content: "🔬";
-            position: absolute;
-            left: 0;
-            top: 0;
-            font-size: 1.2rem;
-        }
-        #research li strong {
-            color: #3b4aa1;
-            display: block;
-            font-size: 1.1rem;
-        }
-
-        .publication {
-            margin-bottom: 1.5rem;
-            padding: 1rem;
-            background-color: #f9faff;
-            border-left: 5px solid #7fa8ff;
-            border-radius: 0 5px 5px 0;
-        }
-        .publication .title {
-            font-weight: bold;
-            font-size: 1.1rem;
-            margin: 0 0 0.25rem;
-        }
-        .publication .authors {
-            font-style: italic;
-            color: #555;
-            margin: 0 0 0.5rem;
-        }
-        .publication .venue {
-            font-size: 0.95rem;
-            color: #777;
-            margin: 0;
-        }
-
-        .team-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 1.5rem;
-        }
-        .profile-card {
-            background-color: #ffffff;
-            border: 1px solid #e3e6f0;
-            border-radius: 8px;
-            padding: 1.5rem;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.04);
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
-        .profile-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-        }
-        .profile-card .name {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: #3b4aa1;
-            margin: 0.5rem 0 0.25rem;
-        }
-        .profile-card .role {
-            font-size: 1rem;
-            font-weight: 500;
-            color: #555;
-            margin: 0 0 0.5rem;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 2rem 1.5rem;
-            margin-top: 2rem;
-            color: #777;
-            font-size: 0.9rem;
-        }
-
-        @media (max-width: 650px) {
-            .header {
-                flex-direction: column;
-                gap: 0.75rem;
-            }
-            .header h1 { font-size: 2rem; }
-            .navbar li a { padding: 0.8rem 0.7rem; }
-            .main-content { padding: 1.25rem; }
-        }
+:root {
+    color-scheme: light;
+    --ink: #17252f;
+    --muted: #4d5e69;
+    --accent: #086078;
+    --line: #dce5e9;
+    --wash: #f3f7f8;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: white; color: var(--ink); font: 16px/1.6 system-ui, sans-serif; }
+a { color: var(--accent); text-underline-offset: .23em; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+h1, h2, h3, h4, p, figure { margin: 0; }
+h1, h2, h3, h4 { line-height: 1.18; }
+.shell { width: min(1100px, calc(100% - 64px)); margin-inline: auto; }
+.skip { position: absolute; top: 12px; left: 12px; background: white; padding: 8px 12px; z-index: 1; }
+.skip:not(:focus) { clip-path: inset(50%); }
+.top { border-bottom: 1px solid var(--line); }
+.bar { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 14px 28px; }
+.brand { color: var(--ink); font-weight: 750; letter-spacing: -.025em; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: 8px 27px; }
+nav a { font-size: .94rem; color: var(--muted); text-decoration: none; }
+nav a:hover, .brand:hover { color: var(--accent); text-decoration: underline; }
+main > section { padding-block: 60px; border-bottom: 1px solid var(--line); }
+main > section:last-child { border-bottom: 0; }
+.hero { padding-top: clamp(45px, 7vw, 85px); }
+.affiliation { display: inline-block; color: var(--accent); font-weight: 650; font-size: .9rem; text-decoration: none; margin-bottom: 18px; }
+.affiliation:hover { text-decoration: underline; }
+h1 { font-size: clamp(2.75rem, 6.7vw, 5.5rem); letter-spacing: -.072em; line-height: .96; font-weight: 750; }
+.intro p { margin-top: 24px; max-width: 61ch; color: var(--muted); font-size: clamp(1rem, 2.25vw, 1.23rem); }
+.intro p + p { margin-top: 14px; }
+.team-link { display: inline-block; margin-top: 19px; font-weight: 700; }
+.team-link span { display: inline-block; padding-left: .25rem; }
+.projects { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 34px; }
+.projects figure { overflow: hidden; background: var(--wash); border-radius: 5px; }
+.projects img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; color: var(--muted); }
+.projects figcaption { padding: 9px 13px; font-size: .86rem; font-weight: 650; }
+h2 { font-size: clamp(2rem, 4vw, 2.75rem); letter-spacing: -.05em; margin-bottom: 22px; }
+#research ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0 42px; }
+#research li { border-top: 1px solid var(--line); padding: 17px 0 22px; color: var(--muted); }
+#research h3, .profile-card h3 { margin-bottom: 8px; font-size: 1.12rem; color: var(--ink); letter-spacing: -.02em; }
+.team-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.profile-card { background: var(--wash); border-top: 2px solid var(--accent); padding: 17px; overflow-wrap: anywhere; }
+.profile-card p { color: var(--muted); font-size: .9rem; margin-bottom: 7px; }
+.profile-card p:last-child { margin-bottom: 0; }
+.profile-card .role { color: var(--accent); font-weight: 650; }
+.profile-card a { font-size: .85rem; }
+.team-label { font-size: 1rem; margin: 23px 0 12px; }
+.adjunct { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+#publications > p { color: var(--muted); max-width: 72ch; }
+#publications > h3 { color: var(--accent); margin: 27px 0 8px; font-size: 1.03rem; }
+.publication { border-top: 1px solid var(--line); padding: 13px 0; }
+.publication h4 { font-weight: 700; margin-bottom: 5px; }
+.authors, .venue { color: var(--muted); font-size: .9rem; }
+.venue { font-style: italic; }
+footer { background: var(--wash); border-top: 1px solid var(--line); }
+.contact { padding-block: 32px; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+.contact h2 { font-size: 1.5rem; margin-bottom: 7px; }
+address { font-style: normal; color: var(--muted); }
+@media (max-width: 800px) {
+    .team-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 590px) {
+    .shell { width: calc(100% - 36px); }
+    .bar { align-items: start; flex-direction: column; padding-block: 14px; }
+    nav { gap: 5px 17px; }
+    h1 { font-size: clamp(2.15rem, 8vw, 3rem); }
+    main > section { padding-block: 38px; }
+    .projects { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .projects figure:first-child { grid-column: 1 / -1; }
+    .projects figure:first-child img { aspect-ratio: 2 / 1; }
+    #research ul { grid-template-columns: 1fr; }
+    .profile-card { padding: 12px; }
+}
     </style>
 </head>
-
 <body>
-    <header class="header">
-        <img src="aulogo_uk_var2_black.png" alt="Aarhus University logo">
-        <div>
-            <h1>Visual Computing Aarhus (VCA)</h1>
-            <p class="subtitle">Visual Computing Research Group · Department of Computer Science · Aarhus University</p>
+
+<a class="skip" href="#about">Skip to content</a>
+<header class="top" id="top">
+    <div class="shell bar">
+        <a class="brand" href="#top">Visual Computing Aarhus</a>
+        <nav aria-label="Main navigation">
+            <a href="#research">Research</a>
+            <a href="#people">People</a>
+            <a href="#publications">Publications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+<main class="shell">
+    <section class="hero" id="about">
+        <div class="intro">
+            <a class="affiliation" href="https://cs.au.dk/">Department of Computer Science · Aarhus University</a>
+            <h1>Visual Computing Aarhus</h1>
+            <p><strong>Visual Computing Aarhus (VCA)</strong> is a research group in the <a href="https://cs.au.dk/research/section-on-human-centered-computing">Human-Centered Computing Section</a> at the <a href="https://cs.au.dk/">Department of Computer Science, Aarhus University</a>. Led by Associate Professor <a href="https://szollmann.github.io/">Stefanie Zollmann</a>, our work lies at the intersection of computer graphics, computer vision, human-computer interaction (HCI), and visualization.</p>
+            <p>We investigate how visual computing can connect real and virtual environments and support human perception, interaction, and understanding. Our research includes <strong>eXtended Reality (XR)</strong>, <strong>Augmented Reality (AR)</strong>, <strong>Virtual Reality (VR)</strong>, situated visualization, immersive rendering, view synthesis, and methods for creating spatial and immersive content.</p>
+            <a class="team-link" href="#people">Meet the team <span aria-hidden="true">↓</span></a>
         </div>
-    </header>
-
-    <nav class="navbar" aria-label="Main navigation">
-        <div class="container">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#people">People</a></li>
-            </ul>
+        <div class="projects" aria-label="Research examples">
+            <figure>
+                <img src="https://szollmann.github.io/assets/img/publications/ARWidgets.jpg" alt="Examples from the AR Widgets study">
+                <figcaption>AR Widgets</figcaption>
+            </figure>
+            <figure>
+                <img src="https://szollmann.github.io/assets/img/publications/VRGSTourism.jpg" alt="Outdoor scene reconstruction for virtual reality">
+                <figcaption>Gaussian splatting for VR</figcaption>
+            </figure>
+            <figure>
+                <img src="https://szollmann.github.io/assets/img/publications/ARAccess.jpg" alt="Examples of augmented reality for sports spectating">
+                <figcaption>AR for sports</figcaption>
+            </figure>
         </div>
-    </nav>
+    </section>
 
-    <main class="container main-content">
-        <section id="about">
-            <h2>Visual Computing Research at Aarhus University</h2>
-            <p>
-                <strong>Visual Computing Aarhus (VCA)</strong> is a research group in the
-                <a href="https://cs.au.dk/research/section-on-human-centered-computing" target="_blank" rel="noopener">Human-Centered Computing Section</a>
-                at the <a href="https://cs.au.dk/" target="_blank" rel="noopener">Department of Computer Science, Aarhus University</a>.
-                Led by Associate Professor <a href="https://szollmann.github.io/" target="_blank" rel="noopener">Stefanie Zollmann</a>,
-                our work lies at the intersection of computer graphics, computer vision, human-computer interaction (HCI), and visualization.
-            </p>
-            <p>
-                We investigate how visual computing can connect real and virtual environments and support human perception,
-                interaction, and understanding. Our research includes <strong>eXtended Reality (XR)</strong>,
-                <strong>Augmented Reality (AR)</strong>, <strong>Virtual Reality (VR)</strong>, situated visualization,
-                immersive rendering, view synthesis, and methods for creating spatial and immersive content.
-            </p>
-        </section>
-
-        <section id="research">
-            <h2>🔬 Research Focus</h2>
-            <p>Our current research spans several areas of visual computing:</p>
+<section id="research">
+            <h2>Research</h2>
             <ul>
                 <li>
-                    <strong>Situated Visualization and Augmented Reality</strong>
+                    <h3>Situated Visualization and Augmented Reality</h3>
                     We develop methods for presenting digital information and visualizations directly in their real-world spatial context.
                 </li>
                 <li>
-                    <strong>XR for Sports, Media, Training, and Instruction</strong>
+                    <h3>XR for Sports, Media, Training, and Instruction</h3>
                     We investigate augmented and virtual reality for sports spectating, immersive coaching, training, and situated instruction.
                 </li>
                 <li>
-                    <strong>Immersive Rendering and View Synthesis</strong>
+                    <h3>Immersive Rendering and View Synthesis</h3>
                     We explore neural rendering, Gaussian splatting, panoramic reconstruction, novel-view synthesis, and view-dependent rendering for interactive XR.
                 </li>
                 <li>
-                    <strong>Computer Vision for Spatial Computing</strong>
+                    <h3>Computer Vision for Spatial Computing</h3>
                     We study camera-based localization, tracking, reconstruction, and scene understanding for augmented and mixed reality systems.
                 </li>
             </ul>
         </section>
+<section id="people">
+            <h2>People</h2>
+            <div class="team-grid">
+                <article class="profile-card">
+                    <h3>Assoc. Prof. Stefanie Zollmann</h3>
+                    <p class="role">Group leader</p>
+                    <p>XR, AR, situated visualization, computer vision, computer graphics, immersive rendering.</p>
+                    <a href="https://pure.au.dk/portal/en/persons/stefanie.zollmann%40cs.au.dk/" target="_blank" rel="noopener">Aarhus University Profile</a>
+                    · <a href="https://szollmann.github.io/" target="_blank" rel="noopener">Personal Website</a>
+                </article>
 
-        <section id="publications">
-            <h2>📄 Selected Recent Publications</h2>
+                <article class="profile-card">
+                    <h3>Yi Li</h3>
+                    <p class="role">Postdoc</p>
+                </article>
+
+                <article class="profile-card">
+                    <h3>Yanling Hua</h3>
+                    <p class="role">PhD student</p>
+                    <p>AR instructional content generation.</p>
+                </article>
+
+                <article class="profile-card">
+                    <h3>Max Rütz</h3>
+                    <p class="role">PhD student</p>
+                    <p>Capture of AR instructions.</p>
+                </article>
+
+                <article class="profile-card">
+                    <h3>Yunhui Song</h3>
+                    <p class="role">Research assistant</p>
+                </article>
+
+                <article class="profile-card">
+                    <h3>Manuel Hartman</h3>
+                    <p class="role">Teaching assistant</p>
+                    <p>Visual Computing course.</p>
+                </article>
+
+                <article class="profile-card">
+                    <h3>Yuan Li</h3>
+                    <p class="role">Teaching assistant</p>
+                    <p>Visual Computing course.</p>
+                </article>
+            </div>
+            <h3 class="team-label">Adjunct members</h3>
+            <div class="team-grid adjunct">
+                <article class="profile-card">
+                    <h3>Tobias Langlotz</h3>
+                    <p class="role">Professor</p>
+                    <p>visual augmentations, telepresence, and VR tourism.</p>
+                </article>
+
+                <article class="profile-card">
+                    <h3>Mehran Rastegar Sani</h3>
+                    <p class="role">PhD student, University of Otago</p>
+                    <p>AR coaching and training.</p>
+                </article>
+
+                <article class="profile-card">
+                    <h3><a href="https://jensemil.dk/">Jens Emil Grønbæk</a></h3>
+                    <p class="role">Assistant professor</p>
+                </article>
+
+                <article class="profile-card">
+                    <h3><a href="https://kenpfeuffer.com/">Ken Pfeuffer</a></h3>
+                    <p class="role">Associate professor</p>
+                </article>
+            </div>
+            <h3 class="team-label">Former members</h3>
+            <div class="team-grid">
+                <article class="profile-card">
+                    <h3>Lauren Zerbin</h3>
+                    <p class="role">Teaching assistant</p>
+                    <p>Visual Computing course.</p>
+                </article>
+            </div>
+        </section>
+<section id="publications">
+            <h2>Selected Publications</h2>
             <p>
                 Selected recent publications related to the group's research. For a broader publication list,
                 see <a href="https://szollmann.github.io/" target="_blank" rel="noopener">Stefanie Zollmann's publication page</a>
@@ -332,39 +292,51 @@
             <h3>2026</h3>
 
             <article class="publication">
-                <p class="title">AR Widgets: Exploring Placement Strategies for Persistent Widgets for Augmented Reality</p>
+                <h4><a href="https://doi.org/10.1145/3821712">AR Widgets: Exploring Placement Strategies for Persistent Widgets for Augmented Reality</a></h4>
                 <p class="authors">Zollmann, S., Langlotz, T., Wagner, D., Manakhov, P., &amp; Lo, W. H.</p>
                 <p class="venue">MobileHCI 2026, Swansea, UK.</p>
             </article>
 
             <article class="publication">
-                <p class="title">VR Panorama Inpainting: A Feasibility Study of High-Resolution View Synthesis for Virtual Reality</p>
+                <h4><a href="https://doi.org/10.1109/AIxVR67263.2026.00024">VR Panorama Inpainting: A Feasibility Study of High-Resolution View Synthesis for Virtual Reality</a></h4>
                 <p class="authors">Eagan, L., Nguyen, N., Chen, A. V., Zhu, T., Johnson, S. M., Dumpa, P. R., Geil, B. J., Ventura, J., &amp; Zollmann, S.</p>
                 <p class="venue">2026 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR), pp. 137–146.</p>
+            </article>
+
+            <article class="publication">
+                <h4><a href="https://doi.org/10.1145/3801727.3844939">Augmented Reality-based Training for Casual Sports</a></h4>
+                <p class="authors">Sani, M. R., Langlotz, T., Regenbrecht, H., &amp; Zollmann, S.</p>
+                <p class="venue">SportsHCI Companion 2026, Article 19, pp. 1–5.</p>
+            </article>
+
+            <article class="publication">
+                <h4><a href="https://doi.org/10.1109/VRW70859.2026.00143">Towards EMG-Driven Pseudo-Haptic Feedback for VR Surgical Training</a></h4>
+                <p class="authors">Lan, W., Peng, D., Xia, Z., Langlotz, T., Zollmann, S., &amp; Kunze, K.</p>
+                <p class="venue">IEEE VR Workshops 2026, pp. 745–751.</p>
             </article>
 
             <h3>2025</h3>
 
             <article class="publication">
-                <p class="title">VAIR: Visual Analytics for Injury Risk Exploration in Sports</p>
+                <h4>VAIR: Visual Analytics for Injury Risk Exploration in Sports</h4>
                 <p class="authors">Lee, C., Gong, U., Lin, T., Zollmann, S., Epsley, S., Petway, A., &amp; Pfister, H.</p>
                 <p class="venue">2025 IEEE 16th Workshop on Visual Analytics in Healthcare (VAHC).</p>
             </article>
 
             <article class="publication">
-                <p class="title">Mobile Eye-perspective Rendering: Alignment of Image-based Vision Augmentations for Optical See-through Head-mounted Displays</p>
+                <h4>Mobile Eye-perspective Rendering: Alignment of Image-based Vision Augmentations for Optical See-through Head-mounted Displays</h4>
                 <p class="authors">Emsenhuber, G., Smirnov, M., Langlotz, T., Kalkofen, D., Zollmann, S., &amp; Tatzgern, M.</p>
                 <p class="venue">2025 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct).</p>
             </article>
 
             <article class="publication">
-                <p class="title">Semantics-Controlled Gaussian Splatting for Outdoor Scene Reconstruction and Rendering in Virtual Reality</p>
+                <h4>Semantics-Controlled Gaussian Splatting for Outdoor Scene Reconstruction and Rendering in Virtual Reality</h4>
                 <p class="authors">Schieber, H., Young, J., Langlotz, T., Zollmann, S., &amp; Roth, D.</p>
                 <p class="venue">2025 IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR).</p>
             </article>
 
             <article class="publication">
-                <p class="title">Augmented Reality for Supporting Accessible Sports Spectating and Training</p>
+                <h4>Augmented Reality for Supporting Accessible Sports Spectating and Training</h4>
                 <p class="authors">Zollmann, S., Gong, U., &amp; Langlotz, T.</p>
                 <p class="venue">Third Workshop on Building an Inclusive and Accessible Metaverse for All, ACM CHI 2025, Yokohama, Japan.</p>
             </article>
@@ -372,71 +344,33 @@
             <h3>2024</h3>
 
             <article class="publication">
-                <p class="title">Train Me: Exploring Mobile Sports Capture and Replay for Immersive Sports Coaching</p>
+                <h4>Train Me: Exploring Mobile Sports Capture and Replay for Immersive Sports Coaching</h4>
                 <p class="authors">Sani, M. R., Zollmann, S., &amp; Langlotz, T.</p>
                 <p class="venue">Adjunct Proceedings of the 26th International Conference on Mobile Human-Computer Interaction (MobileHCI).</p>
             </article>
 
             <article class="publication">
-                <p class="title">3D Pano Inpainting: Building a VR Environment from a Single Input Panorama</p>
+                <h4>3D Pano Inpainting: Building a VR Environment from a Single Input Panorama</h4>
                 <p class="authors">Ajisa, S., Du, E., Nguyen, N., Zollmann, S., &amp; Ventura, J.</p>
                 <p class="venue">IEEE VR 2024 Adjunct Proceedings.</p>
             </article>
 
             <article class="publication">
-                <p class="title">Hybrid XRSpectator: A Hybrid Tabletop XR Sports Spectating Experience</p>
+                <h4>Hybrid XRSpectator: A Hybrid Tabletop XR Sports Spectating Experience</h4>
                 <p class="authors">Lo, W. H., Gul, S., Langlotz, T., Regenbrecht, H., &amp; Zollmann, S.</p>
                 <p class="venue">2024 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW).</p>
             </article>
         </section>
 
-        <section id="people">
-            <h2>👩‍💻 People</h2>
-            <div class="team-grid">
-                <div class="profile-card">
-                    <p class="name">Assoc. Prof. Stefanie Zollmann</p>
-                    <p class="role">Group Leader</p>
-                    <p>Research: XR, AR, situated visualization, computer vision, computer graphics, immersive rendering.</p>
-                    <a href="https://pure.au.dk/portal/en/persons/stefanie.zollmann%40cs.au.dk/" target="_blank" rel="noopener">Aarhus University Profile</a>
-                    · <a href="https://szollmann.github.io/" target="_blank" rel="noopener">Personal Website</a>
-                </div>
-
-                <div class="profile-card">
-                    <p class="name">Yanling Hua</p>
-                    <p class="role">PhD Student</p>
-                    <p>Research: AR instructional content generation.</p>
-                </div>
-
-                <div class="profile-card">
-                    <p class="name">Lauren Zerbin</p>
-                    <p class="role">Teaching Assistant</p>
-                    <p>Visual Computing course.</p>
-                </div>
-
-                <div class="profile-card">
-                    <p class="name">Max Ruetz</p>
-                    <p class="role">Research Assistant</p>
-                    <p>Research: Capture of AR instructions.</p>
-                </div>
-
-                <div class="profile-card">
-                    <p class="name">Tobias Langlotz</p>
-                    <p class="role">Professor (Adjunct Member)</p>
-                    <p>Research: visual augmentations, telepresence, and VR tourism.</p>
-                </div>
-
-                <div class="profile-card">
-                    <p class="name">Mehran Rastegar Sani</p>
-                    <p class="role">PhD Student, University of Otago (Adjunct Member)</p>
-                    <p>Research: AR coaching and training.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p>&copy; 2026 Visual Computing Aarhus (VCA)</p>
-        <p>Department of Computer Science, Aarhus University | Åbogade 34, 8200 Aarhus N, Denmark</p>
-    </footer>
+</main>
+<footer id="contact">
+    <div class="shell contact">
+        <div>
+            <h2>Contact</h2>
+            <p><a href="mailto:stefanie.zollmann@cs.au.dk">stefanie.zollmann@cs.au.dk</a></p>
+        </div>
+        <address>Department of Computer Science<br>Aarhus University<br>Åbogade 34, 8200 Aarhus N, Denmark</address>
+    </div>
+</footer>
 </body>
 </html>
