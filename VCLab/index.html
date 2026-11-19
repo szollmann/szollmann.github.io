@@ -96,7 +96,7 @@ main > section:last-child { border-bottom: 0; }
 .affiliation { display: inline-block; color: var(--accent); font-weight: 650; font-size: .9rem; text-decoration: none; margin-bottom: 18px; }
 .affiliation:hover { text-decoration: underline; }
 h1 { font-size: clamp(2.75rem, 6.7vw, 5.5rem); letter-spacing: -.072em; line-height: .96; font-weight: 750; }
-.intro p { margin-top: 24px; max-width: 61ch; color: var(--muted); font-size: clamp(1rem, 2.25vw, 1.23rem); }
+.intro p { margin-top: 24px; text-align: justify; color: var(--muted); font-size: clamp(1rem, 2.25vw, 1.23rem); }
 .intro p + p { margin-top: 14px; }
 .team-link { display: inline-block; margin-top: 19px; font-weight: 700; }
 .team-link span { display: inline-block; padding-left: .25rem; }
@@ -114,6 +114,7 @@ h2 { font-size: clamp(2rem, 4vw, 2.75rem); letter-spacing: -.05em; margin-bottom
 .profile-card p:last-child { margin-bottom: 0; }
 .profile-card .role { color: var(--accent); font-weight: 650; }
 .profile-card a { font-size: .85rem; }
+.profile-card h3 a { font-size: inherit; }
 .team-label { font-size: 1rem; margin: 23px 0 12px; }
 .adjunct { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 #publications > p { color: var(--muted); max-width: 72ch; }
@@ -251,7 +252,7 @@ address { font-style: normal; color: var(--muted); }
             <h3 class="team-label">Adjunct members</h3>
             <div class="team-grid adjunct">
                 <article class="profile-card">
-                    <h3>Tobias Langlotz</h3>
+                    <h3><a href="https://cs.au.dk/~langlotz/">Tobias Langlotz</a></h3>
                     <p class="role">Professor</p>
                     <p>visual augmentations, telepresence, and VR tourism.</p>
                 </article>
